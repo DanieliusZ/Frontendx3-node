@@ -1,0 +1,12 @@
+<h2>Create New Panel</h2>
+<form (submit)="onNewPanelSubmit()">
+  <div class="form-group">
+    <label>Image url:</label>
+    <input type="text" [(ngModel)]="Url" name="Url" class="form-control" required=true>
+  </div>
+  <div class="form-group">
+      <label>Description:</label>
+      <input type="text" [(ngModel)]="description" name="description" class="form-control" required=true>
+  </div>
+  <input type="submit" calss="btn btn-primary" value="Create">
+</form>

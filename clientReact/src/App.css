@@ -1,0 +1,52 @@
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar {
+  background-color: sienna;
+  color: whitesmoke;
+  padding: 1rem;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.nav-item{
+  cursor: pointer;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.panel-img {
+  max-width: 20rem;
+  max-height: 10rem;
+}
+
+.panel-card {
+  margin: 1rem;
+  border: 2px solid brown;
+  border-radius: 5%;
+  padding: 0.5rem;
+}
+
+.panel-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.danger {
+  background-color: darkred;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+}
